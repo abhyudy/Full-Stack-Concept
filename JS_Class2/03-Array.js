@@ -103,3 +103,12 @@ function sortExample(arr) {
   console.log("After sort:", arr);
 }
 sortExample([5, 2, 3, 4, 1]);
+
+//forEach
+const initialArray = [1, 2, 3];
+
+function logThing(str) {
+  console.log(str);
+}
+
+initialArray.forEach(logThing);
