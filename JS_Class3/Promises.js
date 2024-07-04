@@ -1,3 +1,5 @@
+// Promises are syntactical sugar that make code slightly more readable.
+
 let myPromise = new Promise(function (myResolve, myReject) {
   // "Producing Code" (May take some time)
 
