@@ -1,5 +1,6 @@
 const fs = require("fs");
 
+// asyn function
 function abhiReadFile() {
   return new Promise(function (resolve) {
     fs.readFile("./a.txt", "utf-8", function (err, data) {
@@ -8,6 +9,7 @@ function abhiReadFile() {
   });
 }
 
+// call back function to call
 function onDone(data) {
   console.log(data);
 }
