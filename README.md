@@ -7,3 +7,4 @@ Give out the structure of something which reuseable multiple places.
 -- JavaScript Promises used to simplify managing multiple asynchronous operations, preventing callback hell and unmanageable code. They represent future values, associating handlers with eventual success or failure, resembling synchronous methods by postponing value delivery until later.
 
 // Promise = Promise is a class, which call async function more readable.
+// Closures = A closure is created when a function is defined inside another function and the inner function retains access to the outer function's variables.
