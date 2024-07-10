@@ -12,3 +12,5 @@ function findSumTill100() {
 
 setTimeout(findSumTill100, 1000);
 console.log("Hello world");
+
+//Aync function can do- Reading file, A deliberate timeout, Sending a network request
